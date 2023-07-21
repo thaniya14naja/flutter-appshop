@@ -1,9 +1,8 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:carousel_slider/carousel_controller.dart';
+
+import 'package:appshopdemo/app/models/Carousel_model.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-
-import 'package:appshop/app/models/Carousel_model.dart';
 
 class CustomCarousel extends StatefulWidget {
   final List<CarouselModel> data;

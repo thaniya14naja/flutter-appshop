@@ -1,8 +1,8 @@
-import 'package:appshop/app/models/Carousel_model.dart';
-import 'package:appshop/app/models/catrgorybarmodel.dart';
-import 'package:appshop/app/models/home_model.dart';
-import 'package:appshop/app/models/hotdeal_model.dart';
-import 'package:appshop/app/models/recommend_model.dart';
+import 'package:appshopdemo/app/models/Carousel_model.dart';
+import 'package:appshopdemo/app/models/catrgorybarmodel.dart';
+import 'package:appshopdemo/app/models/home_model.dart';
+import 'package:appshopdemo/app/models/hotdeal_model.dart';
+import 'package:appshopdemo/app/models/recommend_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

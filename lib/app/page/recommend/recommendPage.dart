@@ -1,5 +1,5 @@
-import 'package:appshop/app/page/widget/CustomAppbar.dart';
-import 'package:appshop/app/page/widget/recommend_widget.dart';
+import 'package:appshopdemo/app/page/widget/CustomAppbar.dart';
+import 'package:appshopdemo/app/page/widget/recommend_widget.dart';
 import 'package:flutter/material.dart';
 
 class RecommendPage extends StatelessWidget {

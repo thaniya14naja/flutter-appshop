@@ -49,16 +49,28 @@ class RecommendList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double mywidth = MediaQuery.of(context).size.width;
+    double mywidth = MediaQuery.of(context).size.height * 9 / 16;
+    //print('my width is ${mywidth}');
     //print(mywidth);
     return Column(
+      //crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Row(
+        /*Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Text("Recommend"),
+            Card(
+                elevation: 20,
+                child: Padding(
+                    padding: EdgeInsets.all(20.0), child: Text("Recommend"))),
             Text("View All"),
           ],
+        ),*/
+        Card(
+          elevation: 5,
+          child: Padding(
+            padding: EdgeInsets.all(10.0),
+            child: Text("Recommend"),
+          ),
         ),
         _buildblank(d: 10.0),
         _buildRecommendItems(mywidth),

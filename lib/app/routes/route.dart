@@ -1,7 +1,7 @@
-import 'package:appshop/app/page/home/home.dart';
-import 'package:appshop/app/page/product/productPage.dart';
-import 'package:appshop/app/page/recommend/recommendPage.dart';
-
+import 'package:appshopdemo/app/page/home/home.dart';
+import 'package:appshopdemo/app/page/product/productPage.dart';
+import 'package:appshopdemo/app/page/recommend/recommendPage.dart';
+import 'package:appshopdemo/app/page/showMobile/mobileview.dart';
 import 'package:get/get.dart';
 
 List<GetPage> myroutes = [
@@ -17,4 +17,7 @@ List<GetPage> myroutes = [
     name: '/product',
     page: () => ProductPage(),
   ),
+  GetPage(
+      name: '/mobileview',
+      page: () => MyMobileView()), //edit mobile viewsize in recommend
 ];

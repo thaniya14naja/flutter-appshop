@@ -1,7 +1,7 @@
-import 'package:appshop/app/routes/route.dart';
+import 'package:appshopdemo/app/binding/root_binding.dart';
+import 'package:appshopdemo/app/routes/route.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
-import 'package:appshop/app/binding/root_binding.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(useMaterial3: true),
       initialBinding: RootBinding(),
       getPages: myroutes,
-      initialRoute: '/product',
+      initialRoute: '/mobileview',
     );
   }
 }
